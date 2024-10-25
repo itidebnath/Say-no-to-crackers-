@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Cracking Crackers - Diwali Special</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to bottom right, #ff9a9e, #fecfef);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            background-color: #ff6600;
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            position: relative;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://source.unsplash.com/1600x900/?diwali-lights') center/cover no-repeat;
+            opacity: 0.3;
+            z-index: 1;
+        }
+
+        header h1 {
+            z-index: 2;
+            position: relative;
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 25px;
+            margin: 30px 15px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            animation: slideIn 1s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #ff6600;
+            text-align: center;
+        }
+
+        p {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        .btn {
+            display: block;
+            text-align: center;
+            background-color: #ff6600;
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 18px;
+            margin: 20px auto;
+            width: fit-content;
+            transition: background-color 0.3s ease-in-out, transform 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #e05500;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #ff6600;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 16px;
+        }
+
+        /* Button container for navigation */
+        .nav-buttons {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .nav-buttons a {
+            background-color: #ff9a9e;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 10px;
+            font-size: 18px;
+            display: inline-block;
+            transition: transform 0.3s;
+        }
+
+        .nav-buttons a:hover {
+            background-color: #ff758f;
+            transform: translateY(-5px);
+        }
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Say No to Crackers - Diwali</h1>
+    </header>
+
+    <div class="container">
+        <h2>Why Crackers are Harmful?</h2>
+        <p>Crackers contribute to extreme air pollution, noise pollution, and hazardous waste. This Diwali, we encourage everyone to avoid crackers and focus on sustainable ways to celebrate. Join the movement towards a cleaner and greener Diwali!</p>
+        
+        <h3>Let's Pledge Together</h3>
+        <p>Become part of the change! Celebrate with lights, sweets, and love while preserving nature. Your one decision can make a huge impact.</p>
+
+        <a href="#" class="btn">Take the Eco-Friendly Pledge</a>
+
+        <!-- New buttons for navigation -->
+        <div class="nav-buttons">
+            <a href="alternatives.html">Eco-Friendly Alternatives</a>
+            <a href="effects.html">Effects of Crackers on Health</a>
+            <a href="save-environment.html">How You Can Save the Environment</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>Wishing You a Safe and Green Diwali!</p>
+    </footer>
+
+</body>
+</html>
